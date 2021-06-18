@@ -16,3 +16,10 @@ Existen dos tipos: polimorfismo de sobrecarga y de sobreescritura. El primero se
 
 El polimorfismo siempre se ejecuta por herencia de clases, pero también es posible complementar con clases abstractas e interfaces.
 
+***¿Qué es una clase abstracta***
+
+Una clase abstracta es un tipo de clase que no se puede instanciar, no se le puede asignar un objeto y solo se puede utilizar a través de la herencia.
+
+***¿Cómo se aplica el polimorfismo a este caso?***
+
+El caso seleccionado trata sobre tarjetas de crédito que cuando se instancian ejecutan métodos de verificación y cálculos de montos e intereses.
