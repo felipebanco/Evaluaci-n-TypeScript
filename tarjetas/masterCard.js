@@ -41,7 +41,7 @@ var Mastercard = /** @class */ (function (_super) {
         }
     };
     //El método devuelve el monto y el interés total.
-    Mastercard.prototype.interesYCuota = function (precio, interes, cantidadCuotas) {
+    Mastercard.prototype.interesYCuota = function (precio, interes) {
         var valorInteres = (precio * interes) / 100;
         var preciofinal = valorInteres + precio;
         console.log("El valor a pagar es de: $" + precio + " + $" + valorInteres + " de interes = " + preciofinal + " ");

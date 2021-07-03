@@ -12,7 +12,7 @@ console.log(tarjetaVisa2.verificar(23))
 
 let tarjetaMasterCard1 = new MasterCard("Martin Ramirez", 545, "06/24")
 console.log(tarjetaMasterCard1.verificar("Galicia"))
-console.log(tarjetaMasterCard1.interesYCuota(25000, 18, 12))
+console.log(tarjetaMasterCard1.interesYCuota(25000, 18))
 
 let tarjetaMasterCard2 = new MasterCard("Luis Gonzalez", 671, "07/26")
 console.log(tarjetaMasterCard2.verificar('Nación'))

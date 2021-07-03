@@ -24,7 +24,7 @@ class Mastercard extends TarjetaCredito{
         }
     }
     //El método devuelve el monto y el interés total.
-    interesYCuota(precio: number, interes: number, cantidadCuotas: number): any{
+    interesYCuota(precio: number, interes: number): any{
         let valorInteres: number = (precio * interes) / 100;
         let preciofinal: number = valorInteres + precio
         console.log(`El valor a pagar es de: $${precio} + $${valorInteres} de interes = ${preciofinal} `)
